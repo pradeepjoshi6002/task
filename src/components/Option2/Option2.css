@@ -4,7 +4,6 @@
   justify-content: space-between;
   padding: 0.7rem 0.7rem;
   position: relative;
-  border-bottom: 1px solid gray;
 }
 .option2-cont > div {
   flex: 1;
@@ -13,9 +12,22 @@
   display: flex;
   gap: 1rem;
 }
-.open_btn {
+.open_btn2 {
   position: absolute;
   right: 1rem;
-  font-size: 1.5rem;
   cursor: pointer;
+  color: seagreen;
+  font-size: 2rem;
+}
+.option2-cont-main {
+  border-bottom: 1px solid lightgray;
+  border-left: 1px solid lightgrey;
+  border-right: 1px solid lightgrey;
+}
+.option2-first {
+  font-weight: 600;
+}
+.money {
+  display: flex;
+  align-items: center;
 }

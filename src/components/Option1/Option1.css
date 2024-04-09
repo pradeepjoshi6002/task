@@ -1,14 +1,25 @@
 .option1-cont {
   display: flex;
-  background-color: white;
+  background-color: lightgreen;
   justify-content: space-between;
   padding: 0.7rem 0.7rem;
-  border-bottom: 1px solid gray;
+  /* border-bottom: 1px solid lightgrey; */
 }
 .option1-cont > div {
+  font-weight: 600;
   flex: 1;
 }
 .option1-cont > div:first-child {
   display: flex;
   gap: 1rem;
+}
+.sqft {
+  font-style: italic;
+  font-size: 1rem;
+  font-weight: normal;
+}
+input {
+  width: 1rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
