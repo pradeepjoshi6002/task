@@ -1,0 +1,14 @@
+.option1-cont {
+  display: flex;
+  background-color: white;
+  justify-content: space-between;
+  padding: 0.7rem 0.7rem;
+  border-bottom: 1px solid gray;
+}
+.option1-cont > div {
+  flex: 1;
+}
+.option1-cont > div:first-child {
+  display: flex;
+  gap: 1rem;
+}
